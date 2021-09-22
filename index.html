@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>LuFilms</title>
+  <link rel="shortcut icon" href="imagenes/palomitas.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">LuFilms</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#myPage">INICIO</a></li>
+        <li><a href="#peliculas">PELICULAS</a></li>
+        <li><a href="#entradas">ENTRADAS</a></li>
+        <li><a href="#contactanos">CONTÁCTANOS</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MÁS
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Proximos Estrenos</a></li>
+            <li><a href="#">Trailer</a></li>
+            <li><a href="#">Contenido adiconal</a></li> 
+          </ul>
+        </li>
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+      <li data-target="#myCarousel" data-slide-to="6"></li>
+      <li data-target="#myCarousel" data-slide-to="7"></li>
+    </ol>
+
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="imagenes/peli.jpg" alt="Spider-Man: No Way Home" width="1700" height="500">
+        <div class="carousel-caption">
+          <h3>Spider-Man: No Way Home</h3>
+          <p>Próximamente</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="imagenes/pelicula.jpeg" alt="John Wick 4"  width="1700" height="500">
+        <div class="carousel-caption">
+          <h3>John Wick 4</h3>
+          <p>Próximamente</p>
+        </div>      
+      </div>
+    
+      <div class="item">
+        <img src="imagenes/halloween.jpg" alt="Halloween Kills" width="1700" height="500">
+        <div class="carousel-caption">
+          <h3>Halloween Kills</h3>
+          <p>Próximamente</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="imagenes/encanto.jpg" alt="Encanto"  width="1700" height="500">
+        <div class="carousel-caption">
+          <h3>Encanto</h3>
+          <p>Próximamente</p>
+        </div>      
+      </div>
+    
+      <div class="item">
+        <img src="imagenes/batman.jpg" alt="Batman" width="1700" height="500">
+        <div class="carousel-caption">
+          <h3>Batman</h3>
+          <p>Próximamente</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="imagenes/guardians.jpg" alt="Guardianes de la Galaxia" width="1700" height="500">
+        <div class="carousel-caption">
+          <h3>Guardianes de la Galaxia: Volmen 3</h3>
+          <p>Próximamente</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="imagenes/doctor.jpg" alt="Doctor Stange in the Multiverse Of Madness" width="1700" height="500">
+        <div class="carousel-caption">
+          <h3>Doctor Stange in the Multiverse Of Madness</h3>
+          <p>Próximamente</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="imagenes/matrix.jpg" alt="Matrix 4" width="1700" height="500">
+        <div class="carousel-caption">
+          <h3>Matrix 4: Resurrections</h3>
+          <p>Próximamente</p>
+        </div>      
+      </div>
+    </div>
+
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<div id="peliculas" class="container text-center">
+  <h3>Éxitos en taquilla</h3>
+  <p><em>WE LOVE FILMS!</em></p>
+  <p>Las películas más taquilleras</p>
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Avatar</strong></p><br>
+      <a href="#demo" data-toggle="collapse">
+        <img src="imagenes/avatar.jpg" class="img-circle person" alt="Avatar" width="255" height="255">
+      </a>
+      <div id="demo" class="collapse">
+        <p>Película: Avatar</p>
+        <p>Distribuidora(s): 20th Century Studios</p>
+        <p>Recaudación Mundial: $2 847 246 203</p>
+        <p>Presupuesto: $237 000 000</p>
+        <p>Año de Estreno: 2009</p>
+        <p>Director(es): James Cameron</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Avengers: Endgame</strong></p><br>
+      <a href="#demo2" data-toggle="collapse">
+        <img src="imagenes/avengers.jpeg" class="img-circle person" alt="Avengers: Endgame" width="255" height="255">
+      </a>
+      <div id="demo2" class="collapse">
+        <p>Película: Avengers: Endgame</p>
+        <p>Distribuidora(s): Marvel Studios/Walt Disney Pictures</p>
+        <p>Recaudación Mundial: $2 797 501 328</p>
+        <p>Presupuesto: $356 000 000</p>
+        <p>Año de Estreno: 2019</p>
+        <p>Director(es): Anthony y Joe Russo</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Titanic</strong></p><br>
+      <a href="#demo3" data-toggle="collapse">
+        <img src="imagenes/titanic.jpg" class="img-circle person" alt="Titanic" width="255" height="255">
+      </a>
+      <div id="demo3" class="collapse">
+        <p>Película: Titanic</p>
+        <p>Distribuidora(s): 20 Century Fox / Paramount Pictures</p>
+        <p>Recaudación Mundial: $2 201 647 264</p>
+        <p>Presupuesto: $200 000 000</p>
+        <p>Año de Estreno: 1997</p>
+        <p>Director(es): James Cameron</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="entradas" class="bg-1">
+  <div class="container">
+    <h3 class="text-center">Entradas</h3>
+    <p class="text-center">Compra las entradas a tus películas favoritas y a los mejores precios</p>
+    <ul class="list-group">
+      <li class="list-group-item">Lunes <span class="label label-danger">Vendidas!</span></li>
+      <li class="list-group-item">Miércoles <span class="label label-danger">Vendidas!</span></li> 
+      <li class="list-group-item">Viernes <span class="badge">3 disponibles</span></li> 
+    </ul>
+    
+    <div class="row text-center">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="imagenes/escape.jpg" alt="Escape Room 2" width="400" height="300">
+          <br>
+          <p><strong>Escape Room 2</strong></p>
+          <p>Sábado 16 Octubre 2021</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Comprar boleto</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="imagenes/sin tiempo.jpg" alt="Sin tiempo para morir" width="400" height="300">
+          <p><strong>Sin tiempo para morir</strong></p>
+          <p>Martes 19 Octubre 2021</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Comprar boleto</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="imagenes/jungla.jpg" alt="Jungle Cruise" width="400" height="300">
+          <p><strong>Jungle Cruise</strong></p>
+          <p>Domingo 30 Octubre 2021</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Comprar boleto</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4><span class="glyphicon glyphicon-lock"></span> Boletos</h4>
+        </div>
+        <div class="modal-body">
+          <form role="form">
+            <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Boletos, Q. 30.00 por persona</label>
+              <input type="number" class="form-control" id="psw" placeholder="¿Cuantas desea?">
+            </div>
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Enviar a</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Ingrese su correo electrónico">
+            </div>
+              <button type="submit" class="btn btn-block">Comprar 
+                <span class="glyphicon glyphicon-ok"></span>
+              </button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+            <span class="glyphicon glyphicon-remove"></span> Cancelar
+          </button>
+          <p>¿Necesitas <a href="#">ayuda?</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="contactanos" class="container">
+  <h3 class="text-center">Contáctanos</h3>
+  <p class="text-center"><em>Para sugerencia o información</em></p>
+
+  <div class="row">
+    <div class="col-md-4">
+      <p>Escríbenos</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>Mazatenango, Guatemala</p>
+      <p><span class="glyphicon glyphicon-phone"></span>+502 4789-3514</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>lumovies@mail.com</p>
+    </div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Nombre" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Correo Electrónico" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comentario" rows="5"></textarea>
+      <br>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <button class="btn pull-right" type="submit">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <h3 class="text-center">Críticas</h3>  
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Anne Thompson</a></li>
+    <li><a data-toggle="tab" href="#menu1">Peter Bradshaw</a></li>
+    <li><a data-toggle="tab" href="#menu2">James Cameron</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h2>Anne Thompson, IndieWire: </h2>
+      <p>"Avatar es una celebración de las posibilidades visuales en e|l cine. Cameron ha tomado la tecnología y la ha llevado a donde nadie más lo ha hecho antes."</p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h2>Peter Bradshaw, The Guardian: </h2>
+      <p>La película culminante de la serie de los Avengers es un mezcla irresistible de acción y comedia lo cual garantiza una dulce oleada de placer delirante de sus muchos placeres.</p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h2>James Cameron, Direct: </h2>
+      <p>"La historia no podría haber estado mejor escrita...La yuxtaposición de ricos y pobres, los roles de géneros llevados hasta la muerte, el estoicismo y la nobleza de una era que se fue, la magnificencia del gran navío superada solo por la 
+          estupidez de los hombres que lo condujeron a la oscuridad. Y por encima de todo, la lección: que la vida es incierta, el futuro desconocido...lo impensable posible"</p>
+    </div>
+  </div>
+</div>
+
+<img src="imagenes/wakanda.jpg" class="img-responsive" style="width:100%">
+
+<footer class="text-center">
+  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+  <p>Yadira Lara,  5to. Computación     - * -     &copy; Copyright 2021</p>
+</footer>
+
+<script>
+$(document).ready(function(){
+
+  $('[data-toggle="tooltip"]').tooltip(); 
+  
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+    if (this.hash !== "") {
+
+      event.preventDefault();
+
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+
+        window.location.hash = hash;
+      });
+
+  });
+})
+</script>
+
+</body>
+</html>
